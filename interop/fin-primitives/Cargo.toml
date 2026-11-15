@@ -1,0 +1,15 @@
+[package]
+name = "flowtox-fin-primitives-example"
+version = "0.0.0"
+edition = "2021"
+rust-version = "1.81"
+publish = false
+description = "Example: feed fin-primitives ticks into flowtox VPIN."
+
+[dependencies]
+flowtox = { path = "../.." }
+fin-primitives = { version = "3.2", default-features = false }
+rust_decimal = "1"
+
+# Standalone: not a member of the flowtox package or any workspace.
+[workspace]

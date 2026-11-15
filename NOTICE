@@ -1,0 +1,16 @@
+flowtox
+Copyright (c) 2026 Matthew Busel. Licensed under the MIT License (see LICENSE).
+
+This crate was carved out of srfm-lab (https://github.com/Mattbusel/srfm-lab,
+MIT License, Copyright (c) 2026 Matthew Busel), at commit
+8cbfcb0551d44e3ed1c20bdae9dc805d61521c62 (2026-11-07), from these files:
+
+  crates/microstructure-engine/src/order_flow.rs           TickRule, Vpin
+  crates/microstructure-engine/src/pin.rs                  PinParams, PinEstimator
+  crates/microstructure-engine/src/trade_flow_analysis.rs  bucketed VPIN estimate
+  crates/microstructure-engine/src/tick_bars.rs            tick/volume/dollar bars
+  lib/math/microstructure.py                               tick_rule, lee_ready,
+                                                           bulk_volume_classification,
+                                                           vpin_detailed, pin_estimate
+
+What changed on the way out is listed in docs/PROVENANCE.md.
