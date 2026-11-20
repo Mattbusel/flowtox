@@ -4,6 +4,17 @@ All notable changes to this crate are recorded here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the crate uses
 [Semantic Versioning](https://semver.org/).
 
+## [0.1.1] - 2026-11-20
+
+### Added
+- `examples/block_print.rs`: a 2,500-share print into 1,000-share buckets, split
+  across buckets so VPIN stays a probability.
+
+### Changed
+- README opens with the problem flowtox takes a side on (unmeasured toxicity is a
+  free option for informed traders) and the bucket boundary most hand-rolled VPIN
+  code gets wrong; Cargo description and keywords match. No code change.
+
 ## [0.1.0] - 2026-11-15
 
 First release, carved out of the `microstructure-engine` crate of

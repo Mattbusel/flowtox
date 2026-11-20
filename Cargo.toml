@@ -1,16 +1,16 @@
 [package]
 name = "flowtox"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 rust-version = "1.81"
-description = "Order-flow toxicity for Rust: streaming VPIN, bulk volume classification, Lee-Ready and tick-rule trade signing, and the EKOP PIN model fitted by maximum likelihood. No default dependencies. Carved out of srfm-lab's microstructure-engine."
+description = "If you quote without measuring who is on the other side, you are the liquidity informed traders pick off. Streaming VPIN with exact bucket splitting, bulk volume classification, Lee-Ready and tick-rule signing, and the EKOP PIN by maximum likelihood. No default dependencies; ta::Next optional."
 authors = ["Matthew Busel"]
 license = "MIT"
 repository = "https://github.com/Mattbusel/flowtox"
 documentation = "https://docs.rs/flowtox"
-keywords = ["vpin", "microstructure", "order-flow", "trading", "finance"]
+keywords = ["vpin", "order-flow", "market-making", "microstructure", "toxicity"]
 categories = ["finance", "mathematics", "algorithms"]
-include = ["src/**/*", "tests/**/*", "examples/**/*", "docs/**/*", "Cargo.toml", "LICENSE", "NOTICE", "CHANGELOG.md"]
+include = ["src/**/*", "tests/**/*", "examples/**/*", "docs/**/*", "Cargo.toml", "LICENSE", "NOTICE", "CHANGELOG.md", "README.md"]
 
 [features]
 default = []
